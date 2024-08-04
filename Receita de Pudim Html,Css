@@ -1,0 +1,139 @@
+HTML
+
+
+<h1>Receita de Pudim</h1>
+
+    <img src="https://cozinhaglobo.com.br/wp-content/uploads/2023/07/pudim-de-leite-1024x682.jpg" alt="Pudim de Leite">
+
+    <hr>
+<h2>Ingredientes</h2>
+    <div class="container"> 
+        
+     <div class="section-content"> 
+            <h4>
+                <li>1 lata de leite condensado
+                <li>3 ovos inteiros
+                <li>1 lata de leite (medida da lata de leite condensado)
+                <li>1 xícara (chá) de açúcar
+                <li>1/2 xícara de água
+          </h4>
+        
+        <hr>
+       
+      <h2>Modo de Preparo</h2>
+       
+<div class="preparation-info">
+  <div class="info">
+    <i class="fas fa-clock"></i>
+    <p>Modo de preparo : 5min</p>
+  </div>
+  <div class="info">
+    <i class="fas fa-utensils"></i>
+    <p>Preparo : 45min</p>
+  </div>
+  <div class="info">
+    <i class="fas fa-hourglass-half"></i>
+    <p>Espera : 15min</p>
+  </div>
+</div>
+
+
+        
+            <h4>
+                <li>1 Primeiro, bata bem os ovos no liquidificador.
+                <li>2 Acrescente o leite condensado e o leite, e bata novamente.
+                <li>3 Calda, Derreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar.
+                <li>4 Coloque em uma forma redonda e despeje a massa do pudim por cima.
+                <li>5 Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água.
+               
+              <li>6 Espete um garfo para ver se está bem assado.
+                <li>7 Deixe esfriar e desenforme.
+          </h4>
+            
+      
+      
+   
+CSS
+
+h1{
+  background-color: Orange;
+  padding: 7px;
+  text-align: center;
+}
+h2{
+  background-color: Orange;
+  padding: 8px;
+  text-align: center;
+}
+h3{
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+ 
+}
+li{
+  margin: auto;
+  list-style-position: inside;
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  background-color: gold;
+  padding: 8px;
+}
+img{
+  margin-top: 10px;
+  width: 55%;
+  margin: auto;
+  display: block;
+  
+}
+
+button{
+  padding: 8px;
+  font-weight:900;
+  text-transform: uppercase;
+} 
+
+    .section-content li {
+            margin-bottom: 10px;
+        }
+
+        .section-content ul {
+            list-style: none;
+          padding: 0;
+}
+         .container {
+            width: 60%;
+            margin: 0 auto;
+            text-align: left; }
+
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+  .preparation-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info i {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h4{
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+ 
+}
