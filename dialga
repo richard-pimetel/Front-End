@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let's GO, Pikachu! </title>
+  <link rel="stylesheet" href="dialga.css">
+</head>
+<body>
+  <header>
+      <a href="#">
+          <img src="./img/poke-bola.png" alt="poke-bola">
+          <span>Pokemon</span>
+      </a>
+      <div>
+          <a href="pikachu.html"> Pikachu
+
+          </a>
+
+          <a href="./arceus.html"> Arceus
+
+            </a>
+       <a href="./dialga.html">Dialga  
+          
+       </a>
+       <a href="./rayquaza.html">Rayquaza
+           
+       </a>
+       <a href="./giratina.html">Giratina
+           
+       </a>
+      </div>
+  </header>
+  <main>
+      <div class="title">
+          <h1>Dialga</h1>
+          <span>Dialga</span>
+      </div>
+      <div class="container">
+          <div>
+              <h2>let's go Dialga</h2>
+              <p>
+                  Torne-se o melhor o melhor treinador de Pokemon que puder, enquanto batalha contra outros Treinadores, Líderes de Ginásio e a sinistra Equipe Rocket.
+              </p>
+          </div>
+          <div class="action">
+              <a href="#">
+                  &#10515; Download
+              </a>
+          </div>
+          
+      </div>
+  </main>
+  <footer>
+      Copyrigth 2024 | Richard Pimentel
+  </footer>
+  <img src="img/dialga.png" alt="Dialga" class="dialga-image">
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ :root{
+    --primary-color: #070ac7;
+    --secondary-color: #05ffeaf6;
+ }a{
+    text-decoration: none;
+    color: inherit;
+ }
+ body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Righteous", sans-serif;
+ }
+ header a{
+  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    color: var(--secondary-color);
+ }
+ header{
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ 
+ header div{
+    display: flex;
+    gap: 16px;
+ }
+ main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .title{
+    position: relative;
+    text-align: center;
+    color: white;
+ }
+ .title h1{
+ font-size: 20vw;
+ }
+ .title span{
+ position: absolute;
+ font-size: 25vw;
+ top: -40%;
+ left: 0;
+ opacity: 0.3;
+ }
+ .container{
+   display: flex;
+ }
+ .container div{
+    width: 50%;
+    color: var(--secondary-color);
+    z-index: 1;
+ }
+ .container h2{
+    font-size: 4vw;
+ }
+ .container p{
+    width: 35vw;
+    font-size: 1.5vw;
+ }
+ .action{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+ .container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 100px;
+    width: 400px;
+    color: white;
+    font-size: 48px;
+ }
+ footer{
+    height: 50px;
+    color: var(--secondary-color);
+    text-align: center;
+    font-style: italic;
+ }
+ .dialga-image{
+    position: absolute;
+    top: 49%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    height: 89vh;
+    width: 59vw;
+ }
+
+
+  
